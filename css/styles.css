@@ -1,6 +1,6 @@
 
 
-.buttonClass {
+.buttonClassGrey {
     text-decoration: none;
     font-size:2.813em;
     font-family:Comic Sans MS;
@@ -19,7 +19,7 @@
     background:linear-gradient(rgba(167, 165, 165, 1), rgba(245, 245, 245, 1));
   }
   
-  .buttonClass:hover {
+  .buttonClassGrey:hover {
     background: linear-gradient(rgba(245, 245, 245, 1), rgba(167, 165, 165, 1));
   }
                 
@@ -28,7 +28,7 @@
     background: linear-gradient(#dfdfdf, #ededed);
   }
 
-.buttonClass2 {
+.buttonClassBlue {
     text-decoration: none;
     font-size:1.875em;
     font-family:Arial;
@@ -47,9 +47,11 @@
     background:linear-gradient(#63b8ee, #468ccf);
   }
   
-  .buttonClass2:hover {
+  .buttonClassBlue:hover {
     background: linear-gradient(#468ccf, #63b8ee);
   }
+
+  
       
   
 
@@ -106,9 +108,23 @@ nav{
 }
 #about{
     position: fixed;
-    top: 3em;
-    left: 1em;
+    top: .5em;
+    left: 10em;
     z-index: 1;
+}
+
+#github{
+  position: fixed;
+  top: .5em;
+  right: 12em;
+  z-index: 1;
+}
+
+#resume{
+  position: fixed;
+  top: .5em;
+  right: 1em;
+  z-index: 1;
 }
 
 main{
