@@ -1,20 +1,17 @@
 .buttonClassGrey {
   text-decoration: none;
   font-size: 2.813em;
-  font-family: Comic Sans MS;
+  font-family: Tahoma, Verdana, sans-serif;
   width: 8.75em;
   height: 3.125em;
   border-width: 0.063em;
   color: rgba(24, 23, 23, 1);
-  border-color: #dcdcdc;
+  border-color: #000000;
   font-weight: bold;
-  border-top-left-radius: 0.375em;
-  border-top-right-radius: 0.375em;
-  border-bottom-left-radius: 0.375em;
-  border-bottom-right-radius: 0.375em;
+  padding: .05em;
   box-shadow: inset 0 0.063em 0 -3.125em #ffffff;
   text-shadow: inset 0 0.063em 0 #ffffff;
-  background: linear-gradient(rgba(167, 165, 165, 1), rgba(245, 245, 245, 1));
+  background: linear-gradient(rgba(167, 165, 165, 1), rgb(255, 255, 255));
 }
 
 .buttonClassGrey:hover {
@@ -74,6 +71,8 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1em;
+  position: relative;
+  top: 1em;
 }
 
 #transferFilesButton {
@@ -89,6 +88,8 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1em;
+  position: relative;
+  top: 2em;
 }
 
 #printFilesButton {
@@ -101,17 +102,17 @@ main {
 
 #projectsButton {
   position: relative;
-  top: 1em;
+  top: 2.5em;
   text-align: center;
   font-size: 1.75em;
 }
 
 #container4 {
-  position: relative;
-  top: 3em;
   display: flex;
   justify-content: center;
   gap: 1em;
+  position: relative;
+  top: 5em;
 }
 
 footer{
@@ -280,5 +281,70 @@ font-size: 2em;
   top: 10.5em;
 }
 #printFileUploadButton{
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+#ITFN4800Project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+#ITFN4800ProjectItem3{
+  flex-wrap: wrap;
+  width: 14em;
+  font-size: 2em;
+}
+
+#UniverseFactsWebsite{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  position: relative;
+  right: 3.6em;
+  top: 2em;
+}
+#UniverseFactsWebsiteItem3{
+  flex-wrap: wrap;
+  width: 14em;
+  font-size: 2em;
+}
+
+#HighLowGame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  position: relative;
+  right: 1.3em;
+  top: 4em;
+}
+#HighLowGameItem3{
+  flex-wrap: wrap;
+  width: 14em;
+  font-size: 2em;
+}
+
+#PlatformerGame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  position: relative;
+  left: .8em;
+  top: 6em;
+}
+#PlatformerGameItem3{
+  flex-wrap: wrap;
+  width: 14em;
   font-size: 2em;
 }
