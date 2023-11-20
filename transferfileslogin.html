@@ -24,7 +24,7 @@
         </div>
 
         <div class="title">
-            Platformer Game
+            Transfer Files Login
         </div>
 
         <div id="github">
@@ -40,30 +40,41 @@
 
     <main>
         
-        <div id="platformerText">
-            <span>Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.</span>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <form action="authenticate.php" method="post">
+        <div id="username">
+            <div id="usernameLabel">
+                <label for="username">Username:</label>  
+            </div>
+            <div id="usernameInput">
+                <input type="text" id="username" name="username"
+                size="15" placeholder="Enter your username">
+            </div>
+        </div>    
         
+        <div id="password">
+            <div id="passwordLabel">
+                <label for="password">Password:</label>  
+            </div>
+            <div id="passwordInput">
+                <input type="password" id="password" name="password"
+                size="15" placeholder="Enter your password">
+            </div>
+        </div>
+           
+        <div id="loginButton">
+            <input type="submit" id="login" value="Login" class="loginButton">
+        </div> 
+    </form>       
+       
+        
+       
+
+
+
+
     </main>
 
     <footer>
-
         <span> This website was created by Connor Lance.</span>
     </footer>
 

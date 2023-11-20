@@ -348,3 +348,34 @@ font-size: 2em;
   width: 14em;
   font-size: 2em;
 }
+
+
+#itfn4800Text{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-size: 2em;
+  border: solid;
+  border-color: black;
+}
+
+#itfn4800ScrollBoxes{
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  
+}
+#itfn4800ScrollBox1{
+  border: solid;
+  border-color: black;
+  overflow: auto;
+  height: 30em;
+  width: 30em;
+}
+#itfn4800ScrollBox2{
+  border: solid;
+  border-color: black;
+  overflow: auto;
+  height: 30em;
+  width: 30em;
+}

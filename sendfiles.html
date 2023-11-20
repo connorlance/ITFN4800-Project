@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: transferfileslogin.html');
+	exit;
+}
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -5,12 +13,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Connor's Website</title>
     <meta charset="utf-8">
-    
     <meta name="author" content="Connor Lance">
     <meta name="description" content="This is a website created by Connor Lance. This website is part of a project for the ITFN 4800 class at Clayton State University.">
 </head>
 
-<body>
+<body class="loggedin">
 
     <header>
         <div id="container1">
@@ -24,7 +31,7 @@
         </div>
 
         <div class="title">
-            Transfer Files
+            logged in send files page
         </div>
 
         <div id="github">
@@ -40,39 +47,10 @@
 
     <main>
         
-        
-        <div id="username">
-            <div id="usernameLabel">
-                <label for="username">Username:</label>  
-            </div>
-            
-            <div id="usernameInput">
-                <input type="text" id="username" name="username"
-                size="15" placeholder="Enter your username">
-            </div>
-           
-        </div>    
-        
-        <div id="password">
-            <div id="passwordLabel">
-                <label for="password">Password:</label>  
-            </div>
-             
-            <div id="passwordInput">
-                <input type="password" id="password" name="password"
-                size="15" placeholder="Enter your password">
-            </div>
-            
-        </div>
-           
-        <div id="loginButton">
-            <input type="submit" id="login" value="Login" class="loginButton">
-        </div> 
-           
-       
-       
-
-
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+          </form>
 
 
     </main>
