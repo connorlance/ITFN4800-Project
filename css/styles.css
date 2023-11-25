@@ -175,7 +175,7 @@ footer{
     width: 100px;
   }
 
-  @media (max-width: 500px){
+  @media (max-width: 829px){
     .buttonClassGrey{
       font-size: 1em;
     }
